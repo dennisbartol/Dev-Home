@@ -385,7 +385,8 @@ button {
 }
 
 
-/* Adding in a sticky (On the top of the page) menu-element */
+
+/* Adding in a solid color, "sticky" (On the top of the page) menu-element */
 
 #header {
     background-color: var(--navbar-color);
