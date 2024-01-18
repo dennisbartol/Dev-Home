@@ -15,10 +15,8 @@ body.dark-theme{
     --navbar-color: #fff;
     --main-color: #fff;
     --links-color-mobile: #1c1c1c;
-    transition: 0.5s; 
-    
+    transition: 0.5s;   
 }
-
 
 
 
@@ -33,6 +31,7 @@ body.dark-theme{
 body{
     font-family: 'Poppins';
     background-color: var(--links-color-mobile);
+    margin-top: 70px; 
 }
 
 
