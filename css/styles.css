@@ -31,7 +31,6 @@ body.dark-theme{
 body{
     font-family: 'Poppins';
     background-color: var(--links-color-mobile);
-    margin-top: 70px; 
 }
 
 
@@ -382,15 +381,4 @@ button {
         height: 320px
     }
 
-}
-
-
-
-/* Adding in a solid color, "sticky" (On the top of the page) menu-element */
-
-#header {
-    background-color: var(--navbar-color);
-    position: fixed; /* Fix the header at the top of the viewport */
-    width: 100%; 
-    z-index: 101; 
 }
