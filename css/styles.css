@@ -383,5 +383,10 @@ button {
         height: 320px
     }
 
-
 }
+
+
+/* Adding in a sticky (On the top of the page) menu-element */
+
+.l-header.scrolled {
+            background-color: var(--navbar-color);
