@@ -66,7 +66,7 @@ a.inner:active {
 
 .l-header{
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0; 
     z-index: 100;
