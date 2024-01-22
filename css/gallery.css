@@ -1,0 +1,104 @@
+
+.galcontainer { 
+    position: relative; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 18px; 
+    width: 50vw; 
+    max-width: 800px;
+    height: 500px; 
+    transition: 0.3s; 
+    padding-right: 15px;
+
+    
+}
+
+.galcontainer .box {
+    position: relative; 
+    background: url('img1.jpg');
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s; 
+    display: flex; 
+    justify-self: unset;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* background: hotpink; */
+    border-radius: 5em; 
+    /* border: 2px solid coral ; */
+    box-shadow: 6px 0px 10px 0px #222; 
+
+}
+
+
+
+
+
+.galcontainer:hover .box {
+    filter: grayscale(1);
+}
+
+.galcontainer:hover .box:hover {
+    filter: grayscale(0) brightness(1.20);
+}
+
+
+
+
+.galcontainer:has(.one:hover) 
+    {
+        grid-template-columns: 12fr 0.5fr 0.5fr 0.5fr 0.5fr; 
+    }
+
+
+.galcontainer:has(.two:hover) 
+    {
+        grid-template-columns: 0.5fr 12fr 0.5fr 0.5fr 0.5fr; 
+    }
+
+
+.galcontainer:has(.three:hover) 
+    {
+        grid-template-columns: 0.5fr 0.5fr 12fr 0.5fr 0.5fr; 
+    }
+
+.galcontainer:has(.four:hover) 
+    {
+        grid-template-columns: 0.5fr 0.5fr 0.5fr 10fr 0.5fr; 
+    }
+
+.galcontainer:has(.five:hover) 
+    {
+        grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 10fr ; 
+    }
+
+
+
+    
+
+.galcontainer .box::before {
+    content: '';
+    position: absolute;
+    width: 100%; 
+    height: calc(100% + 3px);
+    background: linear-gradient(#302f2f, transparent , transparent , transparent ,  transparent, #302f2f);
+}
+
+.galcontainer .box:nth-child(even) 
+{
+    transform: translateY(10px);
+}
+
+.galcontainer .box:nth-child(odd)
+{
+    transform: translateY(-10px);
+}
+
+
+@media screen and (max-width: 750px) {
+    .galcontainer {
+        width: 92vw;
+        max-width: none; /* Reset max-width */
+    }
+}
