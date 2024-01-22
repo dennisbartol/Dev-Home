@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 
-
 :root{
     --navbar-color: #707070;
     --main-color: #1C1C1C;
@@ -9,14 +8,19 @@
     --link: #f56a6a; 
 }
 
-
+body {
+    font-family: 'Poppins';
+    background-color: var(--links-color-mobile);
+    transition: background-color 0.5s ease; 
+}
 
 body.dark-theme{
     --navbar-color: #fff;
     --main-color: #fff;
     --links-color-mobile: #1c1c1c;
-    transition: 0.5s;   
 }
+
+
 
 
 
@@ -57,7 +61,7 @@ a.inner:active {
     width: calc(100% - 3rem);
     margin-left: 1.5rem;
     margin-right: 1.5rem;
-}19:07 28-9-2023
+}
 
 
 .l-header{
@@ -84,6 +88,8 @@ nav{
     align-items: center;
 }
 
+
+
 @media screen and (min-width: 768px){
     body{
       margin: 0;
@@ -102,10 +108,15 @@ nav{
     .nav{
       width: 1000px;
       height: calc(3rem + 1.5rem);
+
+      /* Menu dark color - 100% width */
+      /* background-color: var(--nav-dark)  #1C1C1C ; */
     }
 
     .nav__menu{
         display: flex;
+        /* background-color: var(--nav-dark) #1C1C1C ; */
+        
     }
 
     .nav__logo{
@@ -146,6 +157,8 @@ nav{
     }
   
 }
+
+
 
 @media screen and (max-width: 768px) {
 
@@ -276,23 +289,6 @@ span {
 }
 
 
-/*
-
-input {
-    background-color: #F5F5F5;
-    padding: 15px;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    margin-bottom: 10px;
-}
-
-input::placeholder {
-    font-size: 15px;
-    font-family: poppins;
-}
-
-*/
 
 button {
     padding: 12px;
@@ -306,11 +302,11 @@ button {
     margin-top: 4px;
 }
 
-.person .__BG img {
+.blob .__BG img {
     width: 320px;
 }
 
-.person .__BG {
+.blob .__BG {
     border-radius: 250px 0px 250px 250px;
     padding-left: 70px;
     width: 390px;
@@ -318,6 +314,8 @@ button {
     background-color: #f56a6a;
     overflow: hidden;
 }
+
+
 
 @media screen and (min-width:750px) and (max-width: 1000px) {
     .text h1 {
@@ -331,12 +329,12 @@ button {
         
     }
 
-    .person .__BG {
+    .blob .__BG {
         width: 290px;
         height: 320px
     }
 
-    .person .__BG img {
+    .blob .__BG img {
         width: 220px;
     }
 
@@ -373,12 +371,16 @@ button {
         flex-direction: column;
     }
 
-    .person {
+    .blob {
         margin-top: 20px;
     }
-    .person .__BG {
+    .blob .__BG {
         width: 290px;
         height: 320px
     }
 
+
 }
+
+
+
