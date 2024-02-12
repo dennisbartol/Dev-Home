@@ -54,7 +54,10 @@ a.inner:active {
     color: var(--main-color);
 }
 
-
+p.inner { color: #787878;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 
 .bd-container{
     /* max-width: 968px; */
