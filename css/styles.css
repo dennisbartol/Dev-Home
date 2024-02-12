@@ -54,10 +54,28 @@ a.inner:active {
     color: var(--main-color);
 }
 
-p.inner { color: #787878;
+
+
+ul.sites li {
+    list-style-type: square;
+  }
+  
+ul.sites {
+    margin-bottom: 5em; 
+  }
+  
+.text { 
+    color: #787878;
+    font-weight: 600; 
+  }
+
+
+h2 p { 
+    color: #787878;
     font-weight: 600;
     margin-bottom: 10px;
 }
+
 
 .bd-container{
     /* max-width: 968px; */
@@ -384,6 +402,5 @@ button {
 
 
 }
-
 
 
