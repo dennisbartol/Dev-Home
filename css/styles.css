@@ -62,6 +62,27 @@ h2 p {
 }
 
 
+ul.sites li {
+    list-style-type: square;
+  }
+  
+ul.sites {
+    margin-bottom: 5em; 
+  }
+  
+.text { 
+    color: #787878;
+    font-weight: 600; 
+  }
+
+
+h2 p { 
+    color: #787878;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
 .bd-container{
     /* max-width: 968px; */
     width: calc(100% - 3rem);
@@ -387,6 +408,5 @@ button {
 
 
 }
-
 
 
