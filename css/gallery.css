@@ -9,9 +9,9 @@
     height: 500px; 
     transition: 0.3s; 
     padding-right: 15px;
-
-    
+    margin-bottom: 7em;  
 }
+
 
 .galcontainer .box {
     position: relative; 
