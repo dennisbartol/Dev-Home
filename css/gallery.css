@@ -14,7 +14,8 @@
 
 
 .galcontainer .box {
-    position: relative; 
+    position: relative;
+    cursor: zoom-in;
     background: url('img1.jpg');
     background-position: center;
     background-size: cover;
@@ -28,11 +29,7 @@
     border-radius: 5em; 
     /* border: 2px solid coral ; */
     box-shadow: 6px 0px 10px 0px #222; 
-
 }
-
-
-
 
 
 .galcontainer:hover .box {
@@ -73,9 +70,7 @@
         grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 10fr ; 
     }
 
-
-
-    
+ 
 
 .galcontainer .box::before {
     content: '';
