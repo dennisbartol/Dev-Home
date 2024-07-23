@@ -1,4 +1,4 @@
-<h3><b>DEV·Home</b>👨‍💻</h3>
+<h3><b>//DEV·Home·</b>👨‍💻</h3>
 
 -A personal website in HTML, CSS and (Vanilla) JS
 
