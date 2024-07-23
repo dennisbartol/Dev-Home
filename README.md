@@ -3,7 +3,7 @@
 What is this website:</br>
 -A personal website in HTML, CSS and (Vanilla) JS.
 
--If you were to use this source code, <ins><strong>DO NOT COPY 1 ON 1</strong></ins> - Rather, take this code as a starting point and create your own version. I love to hear back from you, and see how your code has evolved into your very own project. Be social !
+-If you were to use this source code, <ins><strong>DO NOT COPY 1 ON 1</strong></ins> - Rather, take this code as a starting point and create your own version, of it. I love to hear back from you, and see how your code has evolved into your very own project. Be social !
 
 <p>
 <h6>Note: As this website is mostly static, I've opted for code in HTML5, CSS3 and Javascript.</h6>
